@@ -1,0 +1,6 @@
+requests
+websockets
+python-dateutil
+
+google-cloud-secret-manager
+google-cloud-pubsub
