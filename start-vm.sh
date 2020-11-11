@@ -19,9 +19,9 @@ export HOME=/root
 git clone https://github.com/davidrojj/options-ws-client.git /opt/app
 
 # Python environment setup
-virtualenv -p python3 /opt/app/options-ws-client/env
-source /opt/app/options-ws-client/env/bin/activate
-/opt/app/options-ws-client/env/bin/pip install -r /opt/app/options-ws-client/requirements.txt
+virtualenv -p python3 /opt/app/options-ws-client/venv
+source /opt/app/options-ws-client/venv/bin/activate
+/opt/app/options-ws-client/venv/bin/pip install -r /opt/app/options-ws-client/requirements.txt
 
 # Set ownership to newly created account
 chown -R pythonapp:pythonapp /opt/app
