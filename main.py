@@ -193,5 +193,4 @@ if __name__ == '__main__':
 
     loop.run_until_complete(asyncio.wait([
         ws_client.receive_message(connection),
-        ws_client.receive_message(connection)
     ]))
